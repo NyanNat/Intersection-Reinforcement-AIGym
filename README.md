@@ -8,8 +8,11 @@ The environment has been equipped with vehicle logic (other car detection and tr
 
 ![alt text](https://github.com/NyanNat/Intersection-Reinforcement-AIGym/blob/main/Traffic-light-environment-picture.png)
 
-Observation space consisted of {{ Number of cars waiting on each intersection (10), Waiting index of each intersection (10), Time of execution (1) }}
+### Observation space
+{{ Number of cars waiting on each intersection (10), Waiting index of each intersection (10), Time of execution (1) }}
 
-Action space consisted of {{ Each Traffic Light states (10), Length of Action (3) }}, with a total of 3072 different possible actions for this environment
+### Action space
+{{ Each Traffic Light states (10), Length of Action (3) }}, with a total of 3072 different possible actions for this environment
 
-Reward consisted of Waiting index of a lane after it turned green * 0.001 + Number of cars reached its destination * 0.25
+### Reward
+Waiting index of a lane after it turned green * 0.001 + Number of cars reached its destination * 0.25
