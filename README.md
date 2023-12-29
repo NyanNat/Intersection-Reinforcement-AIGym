@@ -1,4 +1,6 @@
-This is an simulation of real life intersection for traffic control task on intersection. The environment contains 13 lanes which consisted of 6 lanes for traffic influx, 5 lanes for traffic outpour and 2 connecting lanes.
+##Traffic Control Intersection Task Reinforcement Learning Environment
+
+This is an simulation of real life intersection for traffic control task on intersection in OpenAi Gym. The environment contains 13 lanes which consisted of 6 lanes for traffic influx, 5 lanes for traffic outpour and 2 connecting lanes.
 
 There are 10 traffic lights throughout all intersection to control these intersections, each located according to the provided picture denoted by red or green lines.
 
